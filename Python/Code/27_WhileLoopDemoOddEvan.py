@@ -1,13 +1,12 @@
-# Odd Number
+# Odd Numbers
 x = 1
 while x <= 100:
     print(x, end=" ")
     x += 2
-print("---Loop Over---")
-
-# Evan Number
+print("\n---Loop Over---")
+# Evan Numbers
 y = 2
 while y <= 100:
     print(y, end=" ")
-    x += 2
-print("---Loop Over---")
+    y += 2
+print("\n---Loop Over---")

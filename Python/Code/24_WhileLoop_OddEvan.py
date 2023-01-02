@@ -9,5 +9,5 @@ print("---Loop Over---")
 y = 2
 while y <= 100:
     print(y, end=" ")
-    x += 2
+    y += 2
 print("---Loop Over---")

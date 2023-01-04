@@ -1,3 +1,4 @@
+flag = 0
 n = int(input("\nEnter Number to  : "))
 if n > 1:
     for i in range(2, int(n / 2) + 1):

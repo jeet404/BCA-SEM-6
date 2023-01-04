@@ -1,0 +1,13 @@
+word = "core pyhton"
+print(word)
+print(word[0:9:1])
+print(word[0:9:2])
+print(word[::])
+print(word[::2])
+print(word[2::])
+print(word[-4:-1])
+print(word[-6::])
+print(word.upper())
+print(word.lower())
+print(word.swapcase())
+print(word.title())

@@ -47,6 +47,7 @@
     </LinearLayout>
 
     <RelativeLayout
+        android:id="@+id/sec_java"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp">
@@ -84,6 +85,7 @@
     </RelativeLayout>
 
     <RelativeLayout
+        android:id="@+id/sec_gn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp">
@@ -121,6 +123,7 @@
     </RelativeLayout>
 
     <RelativeLayout
+        android:id="@+id/sec_web"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp">

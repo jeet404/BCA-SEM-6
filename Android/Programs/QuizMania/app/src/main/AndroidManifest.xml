@@ -12,6 +12,21 @@
         android:theme="@style/Theme.QuizMania"
         tools:targetApi="31">
         <activity
+            android:name=".JavaFiveActivity"
+            android:exported="false" />
+        <activity
+            android:name=".JavaFourActivity"
+            android:exported="false" />
+        <activity
+            android:name=".JavaThreeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".JavaTwoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".JavaOneActivity"
+            android:exported="false" />
+        <activity
             android:name=".TopicsActivity"
             android:exported="false" />
         <activity

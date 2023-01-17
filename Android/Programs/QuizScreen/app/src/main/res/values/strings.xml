@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">QuizScreen</string>
+    <string name="que1">Which animal is known as the \"Ship of the Desert" ?</string>
+    <string name="op1">Lion</string>
+    <string name="op2">Sheep</string>
+    <string name="op3">Camel</string>
+    <string name="op4">Elephant</string>
+</resources>

@@ -35,6 +35,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
+        android:gravity="center_horizontal"
         android:padding="6dp">
 
         <TextView
@@ -42,36 +43,120 @@
             android:layout_height="wrap_content"
             android:text="Learn"
             android:textColor="@color/white"
+            android:layout_margin="4dp"
             android:textSize="7pt"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:fontFamily=""
-            android:text="\u"
+            android:fontFamily="@font/font_awesome"
+            android:text="circle"
+            android:layout_margin="4dp"
             android:textColor="@color/white"
-            android:textSize="7pt"/>
+            android:textSize="5pt"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Take Quiz"
+            android:layout_margin="4dp"
             android:textColor="@color/white"
             android:textSize="7pt"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Learn"
+            android:fontFamily="@font/font_awesome"
+            android:text="circle"
+            android:layout_margin="4dp"
             android:textColor="@color/white"
-            android:textSize="7pt"/>
+            android:textSize="5pt"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Repeat"
+            android:layout_margin="4dp"
             android:textColor="@color/white"
             android:textSize="7pt"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="Play"
+        android:backgroundTint="#03C8E1"/>
+
+    <Button
+        android:id="@+id/btn_topics"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="Topics"
+        android:backgroundTint="#03C8E1"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="20dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_marginEnd="20dp"
+            android:padding="6dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/font_awesome"
+                android:text="\uf1e0"
+                android:textSize="9pt"
+                android:textColor="#0ADAF4"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Share"
+                android:textSize="9pt"
+                android:layout_marginStart="5dp"
+                android:textColor="@color/white"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:padding="6dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/font_awesome"
+                android:text="star"
+                android:textSize="9pt"
+                android:textColor="#FFEB3B"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rate Us"
+                android:textSize="9pt"
+                android:layout_marginStart="5dp"
+                android:textColor="@color/white"/>
+
+        </LinearLayout>
 
     </LinearLayout>
 

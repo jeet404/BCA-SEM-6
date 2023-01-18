@@ -63,7 +63,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="The root interface of Java collection framework hierarchy is –"
-                android:textSize="9pt"/>
+                android:textSize="9pt"
+                android:textColor="@color/black"/>
 
         </LinearLayout>
 

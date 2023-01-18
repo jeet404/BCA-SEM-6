@@ -63,7 +63,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="What is a correct syntax to output 'Hello World' in Java?"
-                android:textSize="9pt"/>
+                android:textSize="9pt"
+                android:textColor="@color/black"/>
 
         </LinearLayout>
 

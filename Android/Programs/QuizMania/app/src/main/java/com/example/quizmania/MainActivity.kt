@@ -19,14 +19,20 @@ class MainActivity : AppCompatActivity() {
 
         btnPlay.setOnClickListener{
             val generator = Random()
-            val number: Int = generator.nextInt(5) + 1
+//            var temp = 5
+            val number: Int = generator.nextInt(10) + 1
             var activity: Class<*>? = null
             activity = when (number) {
                 1 -> JavaOneActivity::class.java
                 2 -> JavaTwoActivity::class.java
                 3 -> JavaThreeActivity::class.java
                 4 -> JavaFourActivity::class.java
-                else -> JavaFiveActivity::class.java
+                5 -> JavaFiveActivity::class.java
+                6 -> GnOneActivity::class.java
+                7 -> GnTwoActivity::class.java
+                8 -> GnThreeActivity::class.java
+                9 -> GnFourActivity::class.java
+                else -> GnFiveActivity::class.java
             }
             val intent = Intent(baseContext, activity)
             startActivity(intent)

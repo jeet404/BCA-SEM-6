@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:text="Twin Animation"
+        android:textSize="14pt"
+        android:textColor="@color/black"
+        android:textStyle="italic"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@color/black" />
+
+    <TextView
+        android:id="@+id/txtAnim"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:gravity="center"
+        android:text="Jeet404"
+        android:textStyle="italic"
+        android:textSize="26pt"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#E91E63"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="bottom"
+        android:layout_marginBottom="30dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_fadein"
+                android:layout_width="150dp"
+                android:layout_margin="6dp"
+                android:layout_height="wrap_content"
+                android:text="Fade In"/>
+
+            <Button
+                android:id="@+id/btn_fadeout"
+                android:layout_width="150dp"
+                android:layout_margin="6dp"
+                android:layout_height="wrap_content"
+                android:text="Fade Out"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_slideup"
+                android:layout_width="150dp"
+                android:layout_margin="6dp"
+                android:layout_height="wrap_content"
+                android:text="Slide Up"/>
+
+            <Button
+                android:id="@+id/btn_slidedown"
+                android:layout_width="150dp"
+                android:layout_margin="6dp"
+                android:layout_height="wrap_content"
+                android:text="Slide Down"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_zoomin"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:text="Zoom In" />
+
+            <Button
+                android:id="@+id/btn_zoomout"
+                android:layout_width="150dp"
+                android:layout_margin="6dp"
+                android:layout_height="wrap_content"
+                android:text="Zoom Out"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_bounce"
+                android:layout_width="150dp"
+                android:layout_margin="6dp"
+                android:layout_height="wrap_content"
+                android:text="Bounce"/>
+
+            <Button
+                android:id="@+id/btn_rotate"
+                android:layout_width="150dp"
+                android:layout_margin="6dp"
+                android:layout_height="wrap_content"
+                android:text="Rotate"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

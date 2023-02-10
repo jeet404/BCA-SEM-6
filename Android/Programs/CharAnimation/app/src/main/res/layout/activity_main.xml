@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hey, This is Pentol"
+        android:textColor="@color/black"
+        android:textSize="16pt"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="40dp"/>
+
+    <ImageView
+        android:id="@+id/img_char"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:padding="20dp"
+        android:layout_marginTop="40dp"/>
+
+    <Button
+        android:id="@+id/walk_button"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:text="Walk"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/goSchool_button"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:text="Go to School"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/run_button"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:text="Run"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/dance_button"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:text="Dance"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>

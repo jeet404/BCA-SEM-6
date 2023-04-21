@@ -1,0 +1,19 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "SSIS_Task3_DataConversion", "SSIS_Task3_DataConversion\SSIS_Task3_DataConversion.dtproj", "{EE9FAE38-CDD0-42C4-9DC7-A3AAE3C15F9E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE9FAE38-CDD0-42C4-9DC7-A3AAE3C15F9E}.Development|Default.ActiveCfg = Development
+		{EE9FAE38-CDD0-42C4-9DC7-A3AAE3C15F9E}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
